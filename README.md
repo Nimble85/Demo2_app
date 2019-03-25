@@ -27,4 +27,4 @@ Automate deployment process of web application (as idempotent operation) using D
 ## Workspace description
 Deployment view diagram.
 
-![image](https://github.com/shamalets/SSDevOps-Demo2/blob/master/Demo2%20Diagram.png)
+###![image](https://github.com/shamalets/SSDevOps-Demo2/blob/master/Demo2%20Diagram.png)
