@@ -1,7 +1,306 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="de357559-56ca-43b1-aba4-7ba38ce220c9" name="Default Changelist" comment="" />
+    <list default="true" id="de357559-56ca-43b1-aba4-7ba38ce220c9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/db/dbo.books-all.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/Demo2AppContext.bak" beforeDir="false" afterPath="$PROJECT_DIR$/db/Demo2AppContext.bak" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/db/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/.dockerignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/.vs/Demo2App/v15/.suo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/.vs/Demo2App/v15/Server/sqlite3/db.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/.vs/Demo2App/v15/Server/sqlite3/storage.ide" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/.vs/Demo2App/v15/Server/sqlite3/storage.ide-shm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/.vs/Demo2App/v15/Server/sqlite3/storage.ide-wal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/.vs/config/applicationhost.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/Controllers/HomeController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/Controllers/UsersController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/Data/Demo2AppContext.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/Demo2App.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/Demo2App.csproj.user" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/Migrations/20190320045049_initDB.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/Migrations/20190320045049_initDB.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/Migrations/20190320092310_data.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/Migrations/20190320092310_data.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/Migrations/Demo2AppContextModelSnapshot.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/Models/ErrorViewModel.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/Models/User.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/Properties/PublishProfiles/FolderProfile.pubxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/Properties/PublishProfiles/FolderProfile.pubxml.user" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/Properties/launchSettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/Startup.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/Views/Home/Index.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/Views/Home/Privacy.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/Views/Shared/Error.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/Views/Shared/_CookieConsentPartial.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/Views/Shared/_Layout.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/Views/Shared/_ValidationScriptsPartial.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/Views/Users/Create.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/Views/Users/Delete.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/Views/Users/Details.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/Views/Users/Edit.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/Views/Users/Index.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/Views/_ViewImports.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/Views/_ViewStart.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/appsettings.Development.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/appsettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/bin/Debug/netcoreapp2.2/Demo2App.Views.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/bin/Debug/netcoreapp2.2/Demo2App.Views.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/bin/Debug/netcoreapp2.2/Demo2App.deps.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/bin/Debug/netcoreapp2.2/Demo2App.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/bin/Debug/netcoreapp2.2/Demo2App.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/bin/Debug/netcoreapp2.2/Demo2App.runtimeconfig.dev.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/bin/Debug/netcoreapp2.2/Demo2App.runtimeconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/bin/Release/netcoreapp2.2/Demo2App.Views.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/bin/Release/netcoreapp2.2/Demo2App.Views.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/bin/Release/netcoreapp2.2/Demo2App.deps.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/bin/Release/netcoreapp2.2/Demo2App.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/bin/Release/netcoreapp2.2/Demo2App.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/bin/Release/netcoreapp2.2/Demo2App.runtimeconfig.dev.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/bin/Release/netcoreapp2.2/Demo2App.runtimeconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Container/AdditionalProbingPaths.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Container/ContainerDevelopmentMode.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Container/ImageBuildContext.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Container/ImageId.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Container/OperatingSystemName.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Container/RelativeOutputAssemblyPath.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Container/TargetFramework.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Debug/netcoreapp2.2/Demo2App.AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Debug/netcoreapp2.2/Demo2App.AssemblyInfoInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Debug/netcoreapp2.2/Demo2App.RazorAssemblyInfo.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Debug/netcoreapp2.2/Demo2App.RazorAssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Debug/netcoreapp2.2/Demo2App.RazorCoreGenerate.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Debug/netcoreapp2.2/Demo2App.RazorTargetAssemblyInfo.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Debug/netcoreapp2.2/Demo2App.RazorTargetAssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Debug/netcoreapp2.2/Demo2App.TagHelpers.input.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Debug/netcoreapp2.2/Demo2App.TagHelpers.output.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Debug/netcoreapp2.2/Demo2App.Views.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Debug/netcoreapp2.2/Demo2App.Views.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Debug/netcoreapp2.2/Demo2App.assets.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Debug/netcoreapp2.2/Demo2App.csproj.CopyComplete" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Debug/netcoreapp2.2/Demo2App.csproj.CoreCompileInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Debug/netcoreapp2.2/Demo2App.csproj.FileListAbsolute.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Debug/netcoreapp2.2/Demo2App.csprojAssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Debug/netcoreapp2.2/Demo2App.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Debug/netcoreapp2.2/Demo2App.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Debug/netcoreapp2.2/PubTmp/Out/Demo2App.Views.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Debug/netcoreapp2.2/PubTmp/Out/Demo2App.Views.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Debug/netcoreapp2.2/PubTmp/Out/Demo2App.deps.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Debug/netcoreapp2.2/PubTmp/Out/Demo2App.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Debug/netcoreapp2.2/PubTmp/Out/Demo2App.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Debug/netcoreapp2.2/PubTmp/Out/Demo2App.runtimeconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Debug/netcoreapp2.2/PubTmp/Out/Microsoft.CodeAnalysis.CSharp.Workspaces.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Debug/netcoreapp2.2/PubTmp/Out/Microsoft.CodeAnalysis.Workspaces.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Debug/netcoreapp2.2/PubTmp/Out/Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Debug/netcoreapp2.2/PubTmp/Out/Microsoft.VisualStudio.Web.CodeGeneration.Core.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Debug/netcoreapp2.2/PubTmp/Out/Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Debug/netcoreapp2.2/PubTmp/Out/Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Debug/netcoreapp2.2/PubTmp/Out/Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Debug/netcoreapp2.2/PubTmp/Out/Microsoft.VisualStudio.Web.CodeGeneration.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Debug/netcoreapp2.2/PubTmp/Out/Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Debug/netcoreapp2.2/PubTmp/Out/NuGet.Frameworks.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Debug/netcoreapp2.2/PubTmp/Out/System.Composition.AttributedModel.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Debug/netcoreapp2.2/PubTmp/Out/System.Composition.Convention.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Debug/netcoreapp2.2/PubTmp/Out/System.Composition.Hosting.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Debug/netcoreapp2.2/PubTmp/Out/System.Composition.Runtime.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Debug/netcoreapp2.2/PubTmp/Out/System.Composition.TypedParts.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Debug/netcoreapp2.2/PubTmp/Out/appsettings.Development.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Debug/netcoreapp2.2/PubTmp/Out/appsettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Debug/netcoreapp2.2/PubTmp/Out/dotnet-aspnet-codegenerator-design.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Debug/netcoreapp2.2/PubTmp/Out/web.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Debug/netcoreapp2.2/PubTmp/Out/wwwroot/css/site.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Debug/netcoreapp2.2/PubTmp/Out/wwwroot/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Debug/netcoreapp2.2/PubTmp/Out/wwwroot/js/site.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Debug/netcoreapp2.2/PubTmp/Out/wwwroot/lib/bootstrap/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Debug/netcoreapp2.2/PubTmp/Out/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Debug/netcoreapp2.2/PubTmp/Out/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Debug/netcoreapp2.2/PubTmp/Out/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Debug/netcoreapp2.2/PubTmp/Out/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Debug/netcoreapp2.2/PubTmp/Out/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Debug/netcoreapp2.2/PubTmp/Out/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Debug/netcoreapp2.2/PubTmp/Out/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Debug/netcoreapp2.2/PubTmp/Out/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Debug/netcoreapp2.2/PubTmp/Out/wwwroot/lib/bootstrap/dist/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Debug/netcoreapp2.2/PubTmp/Out/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Debug/netcoreapp2.2/PubTmp/Out/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Debug/netcoreapp2.2/PubTmp/Out/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Debug/netcoreapp2.2/PubTmp/Out/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Debug/netcoreapp2.2/PubTmp/Out/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Debug/netcoreapp2.2/PubTmp/Out/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Debug/netcoreapp2.2/PubTmp/Out/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Debug/netcoreapp2.2/PubTmp/Out/wwwroot/lib/bootstrap/dist/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Debug/netcoreapp2.2/PubTmp/Out/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Debug/netcoreapp2.2/PubTmp/Out/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Debug/netcoreapp2.2/PubTmp/Out/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Debug/netcoreapp2.2/PubTmp/Out/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Debug/netcoreapp2.2/PubTmp/Out/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Debug/netcoreapp2.2/PubTmp/Out/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Debug/netcoreapp2.2/PubTmp/Out/wwwroot/lib/jquery-validation/LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Debug/netcoreapp2.2/PubTmp/Out/wwwroot/lib/jquery-validation/dist/additional-methods.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Debug/netcoreapp2.2/PubTmp/Out/wwwroot/lib/jquery-validation/dist/additional-methods.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Debug/netcoreapp2.2/PubTmp/Out/wwwroot/lib/jquery-validation/dist/jquery.validate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Debug/netcoreapp2.2/PubTmp/Out/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Debug/netcoreapp2.2/PubTmp/Out/wwwroot/lib/jquery/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Debug/netcoreapp2.2/PubTmp/Out/wwwroot/lib/jquery/dist/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Debug/netcoreapp2.2/PubTmp/Out/wwwroot/lib/jquery/dist/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Debug/netcoreapp2.2/PubTmp/Out/wwwroot/lib/jquery/dist/jquery.min.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Debug/netcoreapp2.2/Razor/Views/Home/Index.g.cshtml.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Debug/netcoreapp2.2/Razor/Views/Home/Privacy.g.cshtml.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Debug/netcoreapp2.2/Razor/Views/Shared/Error.g.cshtml.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_CookieConsentPartial.g.cshtml.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_Layout.g.cshtml.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_ValidationScriptsPartial.g.cshtml.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Debug/netcoreapp2.2/Razor/Views/Users/Create.g.cshtml.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Debug/netcoreapp2.2/Razor/Views/Users/Delete.g.cshtml.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Debug/netcoreapp2.2/Razor/Views/Users/Details.g.cshtml.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Debug/netcoreapp2.2/Razor/Views/Users/Edit.g.cshtml.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Debug/netcoreapp2.2/Razor/Views/Users/Index.g.cshtml.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Debug/netcoreapp2.2/Razor/Views/_ViewImports.g.cshtml.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Debug/netcoreapp2.2/Razor/Views/_ViewStart.g.cshtml.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Debug/netcoreapp2.2/TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Debug/netcoreapp2.2/TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Debug/netcoreapp2.2/TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Demo2App.csproj.EntityFrameworkCore.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Demo2App.csproj.nuget.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Demo2App.csproj.nuget.g.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Demo2App.csproj.nuget.g.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Release/netcoreapp2.2/Demo2App.AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Release/netcoreapp2.2/Demo2App.AssemblyInfoInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Release/netcoreapp2.2/Demo2App.RazorAssemblyInfo.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Release/netcoreapp2.2/Demo2App.RazorAssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Release/netcoreapp2.2/Demo2App.RazorCoreGenerate.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Release/netcoreapp2.2/Demo2App.RazorTargetAssemblyInfo.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Release/netcoreapp2.2/Demo2App.RazorTargetAssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Release/netcoreapp2.2/Demo2App.TagHelpers.input.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Release/netcoreapp2.2/Demo2App.TagHelpers.output.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Release/netcoreapp2.2/Demo2App.Views.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Release/netcoreapp2.2/Demo2App.Views.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Release/netcoreapp2.2/Demo2App.assets.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Release/netcoreapp2.2/Demo2App.csproj.CopyComplete" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Release/netcoreapp2.2/Demo2App.csproj.CoreCompileInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Release/netcoreapp2.2/Demo2App.csproj.FileListAbsolute.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Release/netcoreapp2.2/Demo2App.csprojAssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Release/netcoreapp2.2/Demo2App.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Release/netcoreapp2.2/Demo2App.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Release/netcoreapp2.2/PubTmp/Out/Demo2App.Views.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Release/netcoreapp2.2/PubTmp/Out/Demo2App.Views.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Release/netcoreapp2.2/PubTmp/Out/Demo2App.deps.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Release/netcoreapp2.2/PubTmp/Out/Demo2App.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Release/netcoreapp2.2/PubTmp/Out/Demo2App.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Release/netcoreapp2.2/PubTmp/Out/Demo2App.runtimeconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Release/netcoreapp2.2/PubTmp/Out/Microsoft.CodeAnalysis.CSharp.Workspaces.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Release/netcoreapp2.2/PubTmp/Out/Microsoft.CodeAnalysis.Workspaces.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Release/netcoreapp2.2/PubTmp/Out/Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Release/netcoreapp2.2/PubTmp/Out/Microsoft.VisualStudio.Web.CodeGeneration.Core.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Release/netcoreapp2.2/PubTmp/Out/Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Release/netcoreapp2.2/PubTmp/Out/Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Release/netcoreapp2.2/PubTmp/Out/Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Release/netcoreapp2.2/PubTmp/Out/Microsoft.VisualStudio.Web.CodeGeneration.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Release/netcoreapp2.2/PubTmp/Out/Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Release/netcoreapp2.2/PubTmp/Out/NuGet.Frameworks.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Release/netcoreapp2.2/PubTmp/Out/System.Composition.AttributedModel.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Release/netcoreapp2.2/PubTmp/Out/System.Composition.Convention.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Release/netcoreapp2.2/PubTmp/Out/System.Composition.Hosting.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Release/netcoreapp2.2/PubTmp/Out/System.Composition.Runtime.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Release/netcoreapp2.2/PubTmp/Out/System.Composition.TypedParts.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Release/netcoreapp2.2/PubTmp/Out/appsettings.Development.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Release/netcoreapp2.2/PubTmp/Out/appsettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Release/netcoreapp2.2/PubTmp/Out/dotnet-aspnet-codegenerator-design.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Release/netcoreapp2.2/PubTmp/Out/web.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Release/netcoreapp2.2/PubTmp/Out/wwwroot/css/site.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Release/netcoreapp2.2/PubTmp/Out/wwwroot/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Release/netcoreapp2.2/PubTmp/Out/wwwroot/js/site.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Release/netcoreapp2.2/PubTmp/Out/wwwroot/lib/bootstrap/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Release/netcoreapp2.2/PubTmp/Out/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Release/netcoreapp2.2/PubTmp/Out/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Release/netcoreapp2.2/PubTmp/Out/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Release/netcoreapp2.2/PubTmp/Out/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Release/netcoreapp2.2/PubTmp/Out/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Release/netcoreapp2.2/PubTmp/Out/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Release/netcoreapp2.2/PubTmp/Out/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Release/netcoreapp2.2/PubTmp/Out/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Release/netcoreapp2.2/PubTmp/Out/wwwroot/lib/bootstrap/dist/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Release/netcoreapp2.2/PubTmp/Out/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Release/netcoreapp2.2/PubTmp/Out/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Release/netcoreapp2.2/PubTmp/Out/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Release/netcoreapp2.2/PubTmp/Out/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Release/netcoreapp2.2/PubTmp/Out/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Release/netcoreapp2.2/PubTmp/Out/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Release/netcoreapp2.2/PubTmp/Out/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Release/netcoreapp2.2/PubTmp/Out/wwwroot/lib/bootstrap/dist/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Release/netcoreapp2.2/PubTmp/Out/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Release/netcoreapp2.2/PubTmp/Out/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Release/netcoreapp2.2/PubTmp/Out/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Release/netcoreapp2.2/PubTmp/Out/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Release/netcoreapp2.2/PubTmp/Out/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Release/netcoreapp2.2/PubTmp/Out/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Release/netcoreapp2.2/PubTmp/Out/wwwroot/lib/jquery-validation/LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Release/netcoreapp2.2/PubTmp/Out/wwwroot/lib/jquery-validation/dist/additional-methods.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Release/netcoreapp2.2/PubTmp/Out/wwwroot/lib/jquery-validation/dist/additional-methods.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Release/netcoreapp2.2/PubTmp/Out/wwwroot/lib/jquery-validation/dist/jquery.validate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Release/netcoreapp2.2/PubTmp/Out/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Release/netcoreapp2.2/PubTmp/Out/wwwroot/lib/jquery/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Release/netcoreapp2.2/PubTmp/Out/wwwroot/lib/jquery/dist/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Release/netcoreapp2.2/PubTmp/Out/wwwroot/lib/jquery/dist/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Release/netcoreapp2.2/PubTmp/Out/wwwroot/lib/jquery/dist/jquery.min.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Release/netcoreapp2.2/Razor/Views/Home/Index.g.cshtml.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Release/netcoreapp2.2/Razor/Views/Home/Privacy.g.cshtml.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Release/netcoreapp2.2/Razor/Views/Shared/Error.g.cshtml.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Release/netcoreapp2.2/Razor/Views/Shared/_CookieConsentPartial.g.cshtml.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Release/netcoreapp2.2/Razor/Views/Shared/_Layout.g.cshtml.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Release/netcoreapp2.2/Razor/Views/Shared/_ValidationScriptsPartial.g.cshtml.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Release/netcoreapp2.2/Razor/Views/Users/Create.g.cshtml.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Release/netcoreapp2.2/Razor/Views/Users/Delete.g.cshtml.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Release/netcoreapp2.2/Razor/Views/Users/Details.g.cshtml.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Release/netcoreapp2.2/Razor/Views/Users/Edit.g.cshtml.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Release/netcoreapp2.2/Razor/Views/Users/Index.g.cshtml.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Release/netcoreapp2.2/Razor/Views/_ViewImports.g.cshtml.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Release/netcoreapp2.2/Razor/Views/_ViewStart.g.cshtml.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Release/netcoreapp2.2/TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Release/netcoreapp2.2/TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/Release/netcoreapp2.2/TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/obj/project.assets.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/wwwroot/css/site.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/wwwroot/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/wwwroot/js/site.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/wwwroot/lib/bootstrap/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/wwwroot/lib/bootstrap/dist/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/wwwroot/lib/bootstrap/dist/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/wwwroot/lib/jquery-validation/LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/wwwroot/lib/jquery-validation/dist/additional-methods.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/wwwroot/lib/jquery-validation/dist/additional-methods.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/wwwroot/lib/jquery-validation/dist/jquery.validate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/wwwroot/lib/jquery/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/wwwroot/lib/jquery/dist/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/wwwroot/lib/jquery/dist/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Demo2App/Demo2App/wwwroot/lib/jquery/dist/jquery.min.map" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -9,21 +308,61 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/db/Dockerfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docker-compose.yml">
+        <entry file="file://$PROJECT_DIR$/db/dbo.books-all.sql">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/db/Dockerfile">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/BS1/BS1/appsettings.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="52" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/BS1/BS1/books.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docker-compose.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="33" column="19" lean-forward="true" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/web/BS1/BS1/appsettings.json" />
+        <option value="$PROJECT_DIR$/docker-compose.yml" />
+        <option value="$PROJECT_DIR$/db/Dockerfile" />
+      </list>
+    </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="354" />
@@ -41,39 +380,13 @@
         <subPane>
           <expand>
             <path>
-              <item name="SSDevOps-Demo2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SSDevOps-Demo2" type="462c0819:PsiDirectoryNode" />
+              <item name="Demo2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Demo2" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="SSDevOps-Demo2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SSDevOps-Demo2" type="462c0819:PsiDirectoryNode" />
+              <item name="Demo2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Demo2" type="462c0819:PsiDirectoryNode" />
               <item name="db" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SSDevOps-Demo2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SSDevOps-Demo2" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SSDevOps-Demo2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SSDevOps-Demo2" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="Demo2App" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SSDevOps-Demo2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SSDevOps-Demo2" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="Demo2App" type="462c0819:PsiDirectoryNode" />
-              <item name="Demo2App" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SSDevOps-Demo2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SSDevOps-Demo2" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="Demo2App" type="462c0819:PsiDirectoryNode" />
-              <item name="Demo2App" type="462c0819:PsiDirectoryNode" />
-              <item name="Views" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -87,6 +400,11 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Demo2_1\Demo2\db" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -111,23 +429,19 @@
       <option name="presentableId" value="Default" />
       <updated>1553528841431</updated>
       <workItem from="1553528842573" duration="297000" />
+      <workItem from="1553529280218" duration="9076000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="297000" />
+    <option name="totallyTimeSpent" value="9373000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32936078" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -135,21 +449,57 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.40303358" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
+    <entry file="file://$PROJECT_DIR$/web/Demo2App/Demo2App/appsettings.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/Dockerfile">
+    <entry file="file://$PROJECT_DIR$/web/Demo2App/Demo2App/Dockerfile">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/dbo.books-all.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="33" column="19" lean-forward="true" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/BS1/BS1/books.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/BS1/BS1/appsettings.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="52" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>

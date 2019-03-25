@@ -1,10 +1,13 @@
 FROM microsoft/mssql-server-linux
 ENV ACCEPT_EULA=Y
-ENV SA_PASSWORD=MyStrong!Passw0rd
+ENV SA_PASSWORD=VleDh23byUB
 
-COPY Demo2AppContext.bak /var/opt/mssql/data/Demo2AppContext.bak
-
-HEALTHCHECK --interval=30s CMD opt/mssql-tools/bin/sqlcmd -S localhost -U sa -P MyStrong!Passw0rd -Q "RESTORE DATABASE Demo2AppContext FROM DISK='/var/opt/mssql/data/Demo2AppContext.bak' WITH MOVE 'Demo2AppContext' TO '/var/opt/mssql/data/Demo2AppContext.mdf', MOVE 'Demo2AppContext_log' TO '/var/opt/mssql/data/Demo2AppContext_log.ldf' "
-
+COPY BS1Context.bak /var/opt/mssql/data/BS1Context.bak
+COPY dbo.books-all.sql /var/opt/mssql/data/dbo.books-all.sql
 
 
+##works with backup
+HEALTHCHECK --interval=30s CMD opt/mssql-tools/bin/sqlcmd -S localhost -U sa -P VleDh23byUB -Q "RESTORE DATABASE BS1Context FROM DISK='/var/opt/mssql/data/BS1Context.bak' WITH MOVE 'BS1Context' TO '/var/opt/mssql/data/BS1Context.mdf', MOVE 'BS1Context_log' TO '/var/opt/mssql/data/BS1Context_log.ldf' "
+
+##works with request
+##HEALTHCHECK --interval=30s CMD /opt/mssql-tools/bin/sqlcmd -S localhost -U sa -P VleDh23byUB -i /var/opt/mssql/data/dbo.books-all.sql

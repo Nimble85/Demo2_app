@@ -14,7 +14,7 @@ services:
       - 80:80
 
   websrv:
-    build: ./web/Demo2App/Demo2App
+    build: ./web/BS1/BS1
     image: websrv
     environment:
       - COOKIE=SRV insert indirect nocache
@@ -27,5 +27,8 @@ services:
   sqlserver:    
     build: ./db
     container_name: DBsrv
+    volumes:
+     - D:\Demo21:/var/opt/mssql/data/
+     - ./:/var/opt/mssql/data/
     ports:
       - '1433:1433'
